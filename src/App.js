@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import ToDoList from './ToDoList';
 
 function App() {
-  const [todos, setToDos] = useState([{ id: 1, name: 'Todo 1', complete: false}]);
+  const [todos, setToDos] = useState([]);
   return (
     <div>
       <ToDoList todos={todos}/>
